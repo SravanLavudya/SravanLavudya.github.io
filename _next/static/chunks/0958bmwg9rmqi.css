@@ -2,3 +2,16 @@
 
 /* Public contact uses LinkedIn only. */
 .contact .email,.contact .phone,.contact form,.resume-link,.socials a[href="#contact"]{display:none!important}
+@media (min-width: 761px) {
+  .hero h1 {
+    margin-bottom: 0;
+  }
+
+  .hero-left {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    margin-top: 32px;
+  }
+}
